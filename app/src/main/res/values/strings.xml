@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Promobi NYT</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="article_image">Article image</string>
+</resources>

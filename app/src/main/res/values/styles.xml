@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowBackground">@drawable/launch_screen</item>-->
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="AppTheme.Button.Borderless" parent="Widget.AppCompat.Button.Borderless" />
+
+    <style name="AppTheme.EditText" parent="Widget.AppCompat.EditText" />
+
+    <style name="AlertDialogCustom" parent="AlertDialog.AppCompat">
+        <item name="android:buttonStyle">@style/AppTheme.AlertDialogButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AppTheme.AlertDialogButton</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AppTheme.AlertDialogButton</item>
+    </style>
+
+    <style name="AppTheme.AlertDialogButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ProgressBarStyle" parent="@style/Widget.AppCompat.ProgressBar" />
+
+    <style name="ProgressBarStyle.Horizontal" parent="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+
+</resources>

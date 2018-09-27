@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_small"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/article_image" />
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_xlarge"
+            tools:text="Lorem ipsum text showing title of the story."
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/txt_abstract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Lorem ipsum text for the abstract of the story.Lorem ipsum text for the abstract of the story.
+Lorem ipsum text for the abstract of the story.Lorem ipsum text for the abstract of the story."
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

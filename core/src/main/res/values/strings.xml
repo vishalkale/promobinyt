@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">presenter</string>
+    <string name="error_network">Unable to connect to server. Check network connection.</string>
+</resources>
